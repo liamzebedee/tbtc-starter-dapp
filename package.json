@@ -1,0 +1,33 @@
+{
+  "name": "tbtc-starter-dapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "start2": "next"
+  },
+  "devDependencies": {
+    "@weco/next-plugin-transpile-modules": "^2.2.1",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "dependencies": {
+    "@keep-network/tbtc.js": "file:../tbtc.js",
+    "react-scripts": "^3.3.1",
+    "web3": "^1.2.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
